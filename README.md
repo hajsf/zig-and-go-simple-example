@@ -1,4 +1,7 @@
 # zig-and-go-simple-example
+The `main.zig` is having both the signatures of the functions loaded from the libraryies, and the code itself, 
+If the functions signatures are required to defined out of the `main.zig` then the `def.zig` file had been created (any name can be used), and the functions signatures had been defined as `pub` then this file (that contains tha definitions) had been imported at the main file, and the functions had been called using the source name as refernce, see the file `main2.zig`
+
 The GO binary had been built as below to optimize the size:
 ```bash
  go build -ldflags "-w" main.go
