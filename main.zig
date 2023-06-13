@@ -1,5 +1,5 @@
 const std = @import("std");
-//const mylib = @import("mylib");
+
 extern fn add(a: i32, b: i32) i32;
 extern fn sub(a: i32, b: i32) i32;
 
